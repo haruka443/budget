@@ -19,7 +19,7 @@ while True:
         Food = f
         Others - o''')
         purpose = input('Input a goal of your expenditure: ')
-        if purpose == "r":
+        if purpose == "e":
             if cost > remainingBudgetEntertainment:
                 print('The defined amount overruns your budget')
             else:
